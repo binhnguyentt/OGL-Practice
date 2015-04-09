@@ -1,9 +1,12 @@
-#include "GfwPorting/GfwWindowWin32.h"
+#include "OperatingSystem.h"
 #include "GfwWindow.h"
 
 GfwWindow::GfwWindow()
 {
-    m_Window = new GfwPorting::GfwWindowWin32();
+#if GFW_OS == GFW_OS_WINDOW
+    m_Window = GfwPorting::createPortableInstance();
+#endif 
+
     m_evtWindow = NULL; 
 }
 

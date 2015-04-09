@@ -81,7 +81,7 @@
     <ClCompile Include="GfwApp.cpp" />
     <ClCompile Include="GfwObject.cpp" />
     <ClCompile Include="GfwPorting\GfwWindowPortable.cpp" />
-    <ClCompile Include="GfwPorting\GfwWindowWin32.cpp" />
+    <ClCompile Include="GfwPorting\Windows\GfwWindowWin32.cpp" />
     <ClCompile Include="GfwString.cpp" />
     <ClCompile Include="GfwWindow.cpp" />
     <ClCompile Include="main.cpp" />
@@ -94,12 +94,14 @@
     <ClInclude Include="GfwApp.h" />
     <ClInclude Include="GfwObject.h" />
     <ClInclude Include="GfwPorting\GfwWindowPortable.h" />
-    <ClInclude Include="GfwPorting\GfwWindowWin32.h" />
+    <ClInclude Include="GfwPorting\Windows\GfwWindowWin32.h" />
+    <ClInclude Include="GfwShader.h" />
     <ClInclude Include="GfwString.h" />
     <ClInclude Include="GfwVersions.h" />
     <ClInclude Include="GfwWindow.h" />
     <ClInclude Include="GfwWindowEvents.h" />
     <ClInclude Include="Mat4.h" />
+    <ClInclude Include="OperatingSystem.h" />
     <ClInclude Include="Vec3.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

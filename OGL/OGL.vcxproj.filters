@@ -22,6 +22,9 @@
     <Filter Include="Porting\Implementation">
       <UniqueIdentifier>{9e2c2c61-97b3-446a-b52b-c5a5942d4fa1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Porting\Windows">
+      <UniqueIdentifier>{4b31dfbf-1354-4d63-a59c-b3e0273f2019}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -32,9 +35,6 @@
     </ClCompile>
     <ClCompile Include="GfwWindow.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GfwPorting\GfwWindowWin32.cpp">
-      <Filter>Porting\Implementation</Filter>
     </ClCompile>
     <ClCompile Include="GfwString.cpp">
       <Filter>Source Files</Filter>
@@ -50,6 +50,9 @@
     </ClCompile>
     <ClCompile Include="Mat4.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GfwPorting\Windows\GfwWindowWin32.cpp">
+      <Filter>Porting\Windows</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -68,9 +71,6 @@
     <ClInclude Include="Common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="GfwPorting\GfwWindowWin32.h">
-      <Filter>Porting\Headers</Filter>
-    </ClInclude>
     <ClInclude Include="GfwApp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -87,6 +87,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="GfwWindowEvents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GfwShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GfwPorting\Windows\GfwWindowWin32.h">
+      <Filter>Porting\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="OperatingSystem.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

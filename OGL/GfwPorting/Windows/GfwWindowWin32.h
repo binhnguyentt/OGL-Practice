@@ -2,7 +2,7 @@
 #define __GfwWindowWin32_h_included__
 
 #include <windows.h>
-#include "GfwWindowPortable.h"
+#include "../GfwWindowPortable.h"
 
 namespace GfwPorting {
     class GfwWindowWin32 : public GfwPorting::GfwWindowPortable
