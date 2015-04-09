@@ -1,7 +1,7 @@
 #ifndef __GfwWindowEvents_h_included__
 #define __GfwWindowEvents_h_included__
 
-#include "Def.h"
+#include "GfwPorting/Def.h"
 
 class GfwWindowEvents
 {

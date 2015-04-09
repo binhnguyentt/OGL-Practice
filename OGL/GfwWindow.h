@@ -2,7 +2,7 @@
 #define __GfwWindow_h_included__
 
 #include <iostream>
-#include "Def.h"
+#include "GfwPorting/Def.h"
 #include "GfwObject.h"
 #include "GfwString.h"
 #include "GfwWindowEvents.h"

@@ -2,7 +2,7 @@
 #define __GfwString_h_included___
 
 #include "GfwObject.h"
-#include "Def.h"
+#include "GfwPorting/Def.h"
 
 class GfwString: public GfwObject
 {

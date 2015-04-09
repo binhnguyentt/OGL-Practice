@@ -1,7 +1,7 @@
 #ifndef __GfwPorting_GfwWindow_h_included__
 #define __GfwPorting_GfwWindow_h_included__
 
-#include "../Def.h"
+#include "Def.h"
 #include "../GfwString.h"
 #include "../GfwVersions.h"
 #include "../GfwWindowEvents.h"
