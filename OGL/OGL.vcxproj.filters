@@ -16,12 +16,6 @@
     <Filter Include="Porting">
       <UniqueIdentifier>{797ad765-da79-4cd6-a7a8-5650f2b10f46}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Porting\Headers">
-      <UniqueIdentifier>{ba6dc9d4-4174-47f7-bd2a-e72eff4163c3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Porting\Implementation">
-      <UniqueIdentifier>{9e2c2c61-97b3-446a-b52b-c5a5942d4fa1}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Porting\Windows">
       <UniqueIdentifier>{4b31dfbf-1354-4d63-a59c-b3e0273f2019}</UniqueIdentifier>
     </Filter>
@@ -42,9 +36,6 @@
     <ClCompile Include="GfwApp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GfwPorting\GfwWindowPortable.cpp">
-      <Filter>Porting\Implementation</Filter>
-    </ClCompile>
     <ClCompile Include="Vec3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -54,12 +45,12 @@
     <ClCompile Include="GfwPorting\Windows\GfwWindowWin32.cpp">
       <Filter>Porting\Windows</Filter>
     </ClCompile>
+    <ClCompile Include="GfwPorting\GfwWindowPortable.cpp">
+      <Filter>Porting</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GfwWindow.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Def.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="GfwObject.h">
@@ -73,9 +64,6 @@
     </ClInclude>
     <ClInclude Include="GfwApp.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="GfwPorting\GfwWindowPortable.h">
-      <Filter>Porting\Headers</Filter>
     </ClInclude>
     <ClInclude Include="GfwVersions.h">
       <Filter>Header Files</Filter>
@@ -97,6 +85,12 @@
     </ClInclude>
     <ClInclude Include="OperatingSystem.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GfwPorting\Def.h">
+      <Filter>Porting</Filter>
+    </ClInclude>
+    <ClInclude Include="GfwPorting\GfwWindowPortable.h">
+      <Filter>Porting</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

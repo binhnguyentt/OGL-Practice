@@ -90,9 +90,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Common.h" />
-    <ClInclude Include="Def.h" />
     <ClInclude Include="GfwApp.h" />
     <ClInclude Include="GfwObject.h" />
+    <ClInclude Include="GfwPorting\Def.h" />
     <ClInclude Include="GfwPorting\GfwWindowPortable.h" />
     <ClInclude Include="GfwPorting\Windows\GfwWindowWin32.h" />
     <ClInclude Include="GfwShader.h" />
