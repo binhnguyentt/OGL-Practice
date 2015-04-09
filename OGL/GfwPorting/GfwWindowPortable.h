@@ -36,6 +36,8 @@ namespace GfwPorting
 
         virtual void swapBuffers() = 0;
     };
+
+    GfwWindowPortable * createPortableInstance();
 }
 
 #endif // __GfwPorting_GfwWindow_h_included__

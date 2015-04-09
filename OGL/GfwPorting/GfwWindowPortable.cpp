@@ -1,4 +1,8 @@
 
+#if GFW_OS == GFW_OS_WINDOW
+#include "Windows/GfwWindowWin32.h"
+#endif
+
 #include "GfwWindowPortable.h"
 
 void GfwPorting::GfwWindowPortable::setEventsHandler(GfwWindowEvents* eventHandler)
@@ -13,4 +17,11 @@ GfwPorting::GfwWindowPortable::GfwWindowPortable()
 
 GfwPorting::GfwWindowPortable::~GfwWindowPortable()
 {
+}
+
+GfwPorting::GfwWindowPortable * GfwPorting::createPortableInstance()
+{
+#if GFW_OS == GFW_OS_WINDOW
+    return new GfwPorting::GfwWindowWin32();
+#endif
 }
